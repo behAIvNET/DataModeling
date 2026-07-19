@@ -212,7 +212,7 @@ $$
 \text{MdAD} = \frac{1}{n} \sum_{i=1}^{n} \Big| X_i - \text{median}(X) \Big|
 $$
 
-Where:\
+Where:
 - $X_i$ : The $i^{th}$ observation (data point)
 - $\text{median}(X)$ : The median of the data set $X$
 - $n$ : Total number of observations
@@ -328,7 +328,7 @@ $$
 g_1 = \frac{\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^3}{\left(\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2\right)^{3/2}}
 $$
 
-Where:\
+Where:
 - $g_1$ : Parametric skewness
 - $x_i$ : $i^{th}$ observation
 - $\bar{x}$ : Sample mean
@@ -340,7 +340,7 @@ $$
 g_2 = \frac{\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^4}{\left(\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^2\right)^{2}}
 $$
 
-Where:\
+Where:
 - $g_2$ : Parametric kurtosis
 - $x_i$ : $i^{th}$ observation
 - $\bar{x}$ : Sample mean
@@ -356,7 +356,7 @@ $$
 Q_s = \frac{(Q_3 + Q_1 - 2Q_2)}{Q_3 - Q_1}
 $$
 
-Where:\
+Where:
 - $Q_s$ : Bowley's non-parametric skewness
 - $Q_1$ : First quartile
 - $Q_2$ : Median (second quartile)
@@ -370,7 +370,7 @@ $$
 K_M = \frac{(P_{87.5} - P_{62.5}) + (P_{37.5} - P_{12.5})}{P_{75} - P_{25}}
 $$
 
-Where:\
+Where:
 - $K_M$ : Moors non-parametric kurtosis
 - $P_{p}$ : $p^{th}$ percentile (e.g. $P_{87.5}$ is 87.5th percentile)
 
@@ -382,7 +382,7 @@ $$
 g_{1t} = \frac{\frac{1}{n-2k}\sum_{i=k+1}^{n-k}(x_{(i)} - \bar{x}_t)^3}{\left(\frac{1}{n-2k}\sum_{i=k+1}^{n-k}(x_{(i)} - \bar{x}_t)^2\right)^{3/2}}
 $$
 
-Where:\
+Where:
 - $g_{1t}$ : Trimmed skewness
 - $x_{(i)}$ : Ordered observation
 - $\bar{x}_t$ : Trimmed mean
@@ -395,7 +395,7 @@ $$
 g_{2t} = \frac{\frac{1}{n-2k}\sum_{i=k+1}^{n-k}(x_{(i)} - \bar{x}_t)^4}{\left(\frac{1}{n-2k}\sum_{i=k+1}^{n-k}(x_{(i)} - \bar{x}_t)^2\right)^{2}}
 $$
 
-Where:\
+Where:
 - $g_{2t}$ : Trimmed kurtosis
 - $x_{(i)}$ : Ordered observation
 - $\bar{x}_t$ : Trimmed mean
