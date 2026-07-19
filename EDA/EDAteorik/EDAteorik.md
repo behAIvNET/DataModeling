@@ -434,24 +434,19 @@ respectively; **single, two, multiple, unlimited (for discretes) &
 infinite (for continuouses)** outcomes and all real distributions are
 **parametric distribution**.
 
-```{=tex}
-\begin{array}{|l|l|l|}
-\hline
-\textbf{Trial Type} & \textbf{Outcome Type} & \textbf{Distribution} \\
-\hline
-Single\ trial & Single\ outcome & Certainty \\
-Single\ trial & Two\ outcomes & Bernoulli \\
-Single\ trial & Multiple\ outcomes & Categorical \\
-Single\ trial & Unlimited\ outcomes & Poisson \\
-Single\ trial & Infinite\ outcomes & Normal \\
-Multiple\ trials & Single\ outcome & Uniform \\
-Multiple\ trials & Two\ outcomes & Binomial \\
-Multiple\ trials & Multiple\ outcomes & Multinomial \\
-Multiple\ trials & Unlimited\ outcomes & Poisson \\
-Multiple\ trials & Infinite\ outcomes & Normal \\
-\hline
-\end{array}
-```
+| **Trial Type** | **Outcome Type** | **Distribution** |
+|----------------|------------------|------------------|
+| Single trial | Single outcome | Certainty |
+| Single trial | Two outcomes | Bernoulli |
+| Single trial | Multiple outcomes | Categorical |
+| Single trial | Unlimited outcomes | Poisson |
+| Single trial | Infinite outcomes | Normal |
+| Multiple trials | Single outcome | Uniform |
+| Multiple trials | Two outcomes | Binomial |
+| Multiple trials | Multiple outcomes | Multinomial |
+| Multiple trials | Unlimited outcomes | Poisson |
+| Multiple trials | Infinite outcomes | Normal |
+
 As is seen, **normal distribution** as main parametric distribution in
 data science that based on central limit theorem that said that the
 tendency of the sampling distribution to take on a normal shape as
@@ -470,9 +465,9 @@ $$
 Z_n = \frac{X_n - \mu}{\sigma}
 $$
 
-**Where:** - $Z_n$ : z-score of the n-th data point\
-- $X_n$ : n-th original data point\
-- $\mu$ : mean of the distribution\
+**Where:** - $Z_n$ : z-score of the n-th data point
+- $X_n$ : n-th original data point
+- $\mu$ : mean of the distribution
 - $\sigma$ : standard deviation of the distribution
 
 **Density Plot:** A smoothed version of the histogram of the normal
