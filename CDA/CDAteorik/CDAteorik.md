@@ -1142,15 +1142,15 @@ To detect whether there is a difference between two related numerical & ordinal 
 Wilcoxon signed-rank statistic (W) is:  
 
 $$
-W = \sum_{i=1}^n \operatorname{sgn}(d_i)\,R_i
+W = \sum_{i=1}^n \mathrm{sgn}(d_i)\,R_i
 $$
 
 **Where:**  
 - $W$ : Wilcoxon signed-rank statistic  
 - $n$ : Number of paired observations (excluding $d_i = 0$ ties)  
 - $d_i = x_i - y_i$ : Difference between the paired values  
-- $R_i$ : Rank of $|d_i|$ (absolute differences)  
-- $\operatorname{sgn}(d_i)$ : Sign function (+1 if $d_i > 0$, –1 if $d_i < 0$)   
+- $R_i$ : Rank of $|d_i|$ (absolute differences)
+- $\mathrm{sgn}(d_i)$: Sign function (+1 if $d_i>0$, −1 if $d_i<0$)
 
 And its interpretation is:  
 
