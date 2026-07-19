@@ -78,9 +78,9 @@ $$
 
 Where:
 
--   $\bar{x}$ : Mean (average value)\
--   $x_i$ : The $i^{th}$ observation (data point)\
--   $n$ : Total number of observations (sample size)\
+-   $\bar{x}$ : Mean (average value)
+-   $x_i$ : The $i^{th}$ observation (data point)
+-   $n$ : Total number of observations (sample size)
 -   $\sum$ : Summation symbol (sum of all values from $i=1$ to $n$)
 
 **Non-Parametric Central Tendency**
@@ -99,9 +99,9 @@ $$
 
 Where:
 
--   $\text{Median}$ : The middle value of the ordered data\
+-   $\text{Median}$ : The middle value of the ordered data
 -   $x_{(k)}$ : The $k^{th}$ smallest observation (data sorted in
-    ascending order)\
+    ascending order)
 -   $n$ : Total number of observations
 
 **Mode:** It is the value that appears most often in the binary &
@@ -116,8 +116,8 @@ $$
 \text{Trimmed Mean} = \frac{1}{n - 2k} \sum_{i=k+1}^{n-k} x_{(i)}
 $$
 
-**Where:** - $x_{(i)}$ are the data sorted in ascending order\
-- $n$ is the total number of observations\
+**Where:** - $x_{(i)}$ are the data sorted in ascending order
+- $n$ is the total number of observations
 - $k$ is the number of values trimmed from each end
 
 Second level is the measurement whether the data are tightly clustered
@@ -159,8 +159,8 @@ $$
 \text{MnAD} = \frac{1}{n} \sum_{i=1}^{n} \left| x_i - \bar{x} \right|
 $$
 
-**Where:** - $x_i$ are the individual data points\
-- $\bar{x}$ is the mean of the data\
+**Where:** - $x_i$ are the individual data points
+- $\bar{x}$ is the mean of the data
 - $n$ is the total number of observations
 
 To overcome the differentiability limitation of MnAD because of
@@ -176,11 +176,11 @@ $$
 
 Where:
 
--   $s^{2}$ : Sample variance\
--   $x_i$ : The $i^{th}$ observation (data point)\
--   $\bar{x}$ : Sample mean (average of the observations)\
--   $n$ : Total number of observations\
--   $\sum$ : Summation symbol (adds up all squared deviations)\
+-   $s^{2}$ : Sample variance
+-   $x_i$ : The $i^{th}$ observation (data point)
+-   $\bar{x}$ : Sample mean (average of the observations)
+-   $n$ : Total number of observations
+-   $\sum$ : Summation symbol (adds up all squared deviations)
 -   $n - 1$ : Adjusted sample size
 
 To overcome the square of unit limitation of variance because of taking
@@ -196,11 +196,11 @@ $$
 
 Where:
 
--   $s$ : Sample standard deviation\
--   $x_i$ : The $i^{th}$ observation (data point)\
--   $\bar{x}$ : Sample mean\
--   $n$ : Total number of observations\
--   $\sum$ : Summation symbol (adds up all squared deviations)\
+-   $s$ : Sample standard deviation
+-   $x_i$ : The $i^{th}$ observation (data point)
+-   $\bar{x}$ : Sample mean
+-   $n$ : Total number of observations
+-   $\sum$ : Summation symbol (adds up all squared deviations)
 -   $n - 1$ : Adjusted sample size
 
 **Non-Parametric Central Dispersion**
@@ -213,9 +213,9 @@ $$
 $$
 
 Where:\
-- $X_i$ : The $i^{th}$ observation (data point)\
-- $\text{median}(X)$ : The median of the data set $X$\
-- $n$ : Total number of observations\
+- $X_i$ : The $i^{th}$ observation (data point)
+- $\text{median}(X)$ : The median of the data set $X$
+- $n$ : Total number of observations
 - $\sum$ : Summation symbol (adds up all absolute deviations)
 
 **Trimmed Parametric Central Tendency**
@@ -228,12 +228,12 @@ $$
 
 Where:
 
--   $s_t^{2}$ : Trimmed sample variance\
--   $x_i$ : The $i^{th}$ observation after trimming\
+-   $s_t^{2}$ : Trimmed sample variance
+-   $x_i$ : The $i^{th}$ observation after trimming
 -   $\bar{x}_t$ : Trimmed mean (mean of the remaining data after
-    removing extremes)\
--   $n_t$ : Number of observations after trimming\
--   $\sum$ : Summation symbol (adds up all squared deviations)\
+    removing extremes)
+-   $n_t$ : Number of observations after trimming
+-   $\sum$ : Summation symbol (adds up all squared deviations)
 -   $n_t - 1$ : Adjusted sample size after trimming
 
 **Trimmed Standard Deviation**
@@ -244,12 +244,12 @@ $$
 
 Where:
 
--   $s_t$ : Trimmed sample standard deviation\
--   $x_i$ : The $i^{th}$ observation after trimming\
+-   $s_t$ : Trimmed sample standard deviation
+-   $x_i$ : The $i^{th}$ observation after trimming
 -   $\bar{x}_t$ : Trimmed mean (mean of remaining data after removing
-    extremes)\
--   $n_t$ : Number of observations after trimming\
--   $\sum$ : Summation symbol (adds up all squared deviations)\
+    extremes)
+-   $n_t$ : Number of observations after trimming
+-   $\sum$ : Summation symbol (adds up all squared deviations)
 -   $n_t - 1$ : Adjusted sample size after trimming
 
 **Non-Central Dispersion**
@@ -263,9 +263,9 @@ $$
 
 Where:
 
--   $\text{Range}$ : The spread of the data\
--   $\max(x_i)$ : The largest value in the dataset\
--   $\min(x_i)$ : The smallest value in the dataset\
+-   $\text{Range}$ : The spread of the data
+-   $\max(x_i)$ : The largest value in the dataset
+-   $\min(x_i)$ : The smallest value in the dataset
 -   $x_i$ : The $i^{th}$ observation (data point)
 
 **Percentile:** The value such that P percent of the values take on this
@@ -277,11 +277,11 @@ $$
 
 Where:
 
--   $P_{p}$ : The $p^{th}$ percentile\
--   $p$ : Desired percentile (e.g., $p=25$ for 25th percentile)\
+-   $P_{p}$ : The $p^{th}$ percentile
+-   $p$ : Desired percentile (e.g., $p=25$ for 25th percentile)
 -   $x_{(k)}$ : The $k^{th}$ smallest observation (data sorted in
-    ascending order)\
--   $n$ : Total number of observations\
+    ascending order)
+-   $n$ : Total number of observations
 -   $\lceil \cdot \rceil$ : Ceiling function (rounds up to the nearest
     integer)
 
@@ -294,8 +294,8 @@ $$
 
 Where:
 
--   $\text{IQR}$ : Interquartile Range\
--   $Q_{1}$ : First quartile (25th percentile)\
+-   $\text{IQR}$ : Interquartile Range
+-   $Q_{1}$ : First quartile (25th percentile)
 -   $Q_{3}$ : Third quartile (75th percentile)
 
 Third level is the estimation of shape of all data as **distribution**.
@@ -329,9 +329,9 @@ g_1 = \frac{\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^3}{\left(\frac{1}{n}\sum_{i=
 $$
 
 Where:\
-- $g_1$ : Parametric skewness\
-- $x_i$ : $i^{th}$ observation\
-- $\bar{x}$ : Sample mean\
+- $g_1$ : Parametric skewness
+- $x_i$ : $i^{th}$ observation
+- $\bar{x}$ : Sample mean
 - $n$ : Sample size
 
 **Parametric Kurtosis**
@@ -341,9 +341,9 @@ g_2 = \frac{\frac{1}{n}\sum_{i=1}^n (x_i - \bar{x})^4}{\left(\frac{1}{n}\sum_{i=
 $$
 
 Where:\
-- $g_2$ : Parametric kurtosis\
-- $x_i$ : $i^{th}$ observation\
-- $\bar{x}$ : Sample mean\
+- $g_2$ : Parametric kurtosis
+- $x_i$ : $i^{th}$ observation
+- $\bar{x}$ : Sample mean
 - $n$ : Sample size
 
 **Non-Parametric Distribution**
@@ -357,9 +357,9 @@ Q_s = \frac{(Q_3 + Q_1 - 2Q_2)}{Q_3 - Q_1}
 $$
 
 Where:\
-- $Q_s$ : Bowley's non-parametric skewness\
-- $Q_1$ : First quartile\
-- $Q_2$ : Median (second quartile)\
+- $Q_s$ : Bowley's non-parametric skewness
+- $Q_1$ : First quartile
+- $Q_2$ : Median (second quartile)
 - $Q_3$ : Third quartile
 
 **Non-Parametric Kurtosis**
@@ -371,7 +371,7 @@ K_M = \frac{(P_{87.5} - P_{62.5}) + (P_{37.5} - P_{12.5})}{P_{75} - P_{25}}
 $$
 
 Where:\
-- $K_M$ : Moors non-parametric kurtosis\
+- $K_M$ : Moors non-parametric kurtosis
 - $P_{p}$ : $p^{th}$ percentile (e.g. $P_{87.5}$ is 87.5th percentile)
 
 **Trimmed Parametric Distribution**
@@ -383,10 +383,10 @@ g_{1t} = \frac{\frac{1}{n-2k}\sum_{i=k+1}^{n-k}(x_{(i)} - \bar{x}_t)^3}{\left(\f
 $$
 
 Where:\
-- $g_{1t}$ : Trimmed skewness\
-- $x_{(i)}$ : Ordered observation\
-- $\bar{x}_t$ : Trimmed mean\
-- $n$ : Sample size\
+- $g_{1t}$ : Trimmed skewness
+- $x_{(i)}$ : Ordered observation
+- $\bar{x}_t$ : Trimmed mean
+- $n$ : Sample size
 - $k$ : Trimmed observations per tail
 
 **Trimmed Parametric Kurtosis**
@@ -396,10 +396,10 @@ g_{2t} = \frac{\frac{1}{n-2k}\sum_{i=k+1}^{n-k}(x_{(i)} - \bar{x}_t)^4}{\left(\f
 $$
 
 Where:\
-- $g_{2t}$ : Trimmed kurtosis\
-- $x_{(i)}$ : Ordered observation\
-- $\bar{x}_t$ : Trimmed mean\
-- $n$ : Sample size\
+- $g_{2t}$ : Trimmed kurtosis
+- $x_{(i)}$ : Ordered observation
+- $\bar{x}_t$ : Trimmed mean
+- $n$ : Sample size
 - $k$ : Trimmed observations per tail
 
 Until now, **descriptive stats** can be covered and since now **plots**
