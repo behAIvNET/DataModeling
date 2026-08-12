@@ -12,7 +12,7 @@
 
 ## Models
 ### [Time Series Forecasting](https://github.com/behAIvNET/DataModeling/tree/main/TSF)
-### [Event-Time Forecasting]()
+### [Event-Time Forecasting](https://github.com/behAIvNET/DataModeling/tree/main/ETF)
 ### [Structural Equation Model](https://github.com/behAIvNET/DataModeling/tree/main/SEM)
 ### [Computer Vision]()
 ### [Natural Language Processing]()
